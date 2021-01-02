@@ -280,7 +280,7 @@ pr_var_calc <- function(cat, data, reps)
   
   p_values <- data.frame(T_obs_diff$Label, T_z, VE_z)
   
-  print("Output list:
+  cat("Output list:
         1. T_SVE_vals:  Observed values for trace and SVE by group\
         2. Trace_plot: Boxplot for trace in ggplot format\
         3. SVE_plot: Boxplot for SVE in ggplot format\
