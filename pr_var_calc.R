@@ -38,7 +38,7 @@ pr_var_calc <- function(cat, data, reps)
   for (i in 1:n_cat)
   {v_dat_i<-q[i,]
   
-  x<-data[which(v_class$Genotype==v_dat_i),]
+  x<-data[which(cat==v_dat_i),]
   x<-data.frame(x)
   n<-nrow(x)
   
